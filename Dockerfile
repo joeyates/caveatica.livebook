@@ -1,1 +1,3 @@
 FROM livebook/livebook:0.8.1
+
+ARG LIVEBOOK_PASSWORD
