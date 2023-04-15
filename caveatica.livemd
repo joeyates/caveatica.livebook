@@ -1,0 +1,23 @@
+# Caveatica
+
+## Section
+
+```elixir
+Node.get_cookie()
+# Node.start(:"livebookc@127.0.0.1")
+# Node.set_cookie(:caveatica_cookie)
+```
+
+```elixir
+# Node.spawn(:"caveatica@127.0.0.1", IO, :puts, ["OK"])
+Node.spawn(:"caveatica@127.0.0.1", NervesMOTD, :print, [])
+```
+
+```elixir
+DateTime.utc_now()
+```
+
+```elixir
+Node.spawn(:"caveatica@127.0.0.1", Caveatica, :close, [7000])
+# Node.spawn(:"caveatica@127.0.0.1", Caveatica, :open, [5000])
+```
